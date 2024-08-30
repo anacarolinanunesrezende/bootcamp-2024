@@ -1,0 +1,15 @@
+Podcast com AIs Generativas
+
+14/06/24
+
+Prompt Engineering
+
+site-> notion.so
+
+Vou utilizar o site https://speechgen.io/pt/
+
+Repositorio: https://github.com/anacnr/podcast-ia
+
+Descrição: Este texto foi inspirado sobre o desenvolvimento de games antigamente comparando com os games desenvolvidos nos dias atuais. 
+
+Pode usar o programa CupCut para editar também.

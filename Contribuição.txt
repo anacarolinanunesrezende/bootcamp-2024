@@ -1,0 +1,10 @@
+Contribuição no Github
+
+A contribuição pode ser feita através de uma issue no repositório do projeto.
+Pode usar alguns templates para comunicar qual é o problema.
+Usa colchetes para escrever o nome do link e entre parênteses coloca a URL: []()
+
+è possível delegar o resolução do problema para quem criou a issue ou o prorpietário do repositório pode resolver a solução.
+
+git pull -> Serve para mesclar o código atuazliado com um desatualizado.
+

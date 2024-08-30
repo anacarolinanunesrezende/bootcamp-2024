@@ -1,0 +1,86 @@
+Trabalhar com o chat gpt
+
+29/05/24
+
+Dicas:
+
+Pode ensinar o estilo de codificação do usuário. verificar os processos de instalação de programas, fazer teste técnico para entrevista,etc
+
+
+O algoritimo usado pela Onpen Ai no chat é "DaVinci", aprendizagem do que o usuário escreve. Isso vai servir para manipulação.
+
+
+Engenheiro de prompt-> Trabalha com perguntas a máquinas IA
+
+Prompts: Saber fazer perguntas.
+
+O chat é capaz de armazenar os temas das últimas conversas criadas.
+A limitação de conhecimento é a partir de 2021
+
+Dicas:
+
+Perguntar algo que não existe ainda;
+Misturar as ideias.
+
+Prompt assertivos: Modelos de perguntas
+Função, tipo de texto, assunto e estilo
+
+Ex.: Me resuma o poema de jogos do escritor ficticio
+site: notion.so
+
+Técnica FTAE-> Conteúdos artificiais
+Ex.: Me escreva no formato de script uma história intuitiva de um astronauta aventureiro como se fosse uma empresa de games criando um novo jogo
+
+Pode fazer uma manipulação para estilo formal ou informal(o que deixa o texto gerado mais compreensível)
+
+Criação de voz:
+Ex.: Me escreva no formato de script uma história intuitiva de um astronauta aventureiro como se fosse uma empresa de games criando um novo jogo, sendo que crianças de 7 anos lerão este script
+
+ 
+Pode pedir para gerar um texto de envio de curriculo por e-mail
+
+A IA tem a fantasia computacional e consegue gerar esses textos.
+
+
+30/05/24
+
+Técnica Prompt 3R
+
+3R-> Resumo, roteiro e regras
+
+Campo semantico-> {Resumo}, {Regras} e {Regras}
+Variaveis-> [variavel] : valor
+
+{semantica}
+[variavel]
+
+Ex.: Me escreva sobre primeiros passos no Docker, em tom de conversa com uma criança de 9 anos. Agora, use os itens em  {Resumo} para o {Roteiro} seguindo as {Regras}
+
+{Resumo}
+[Autoridade]: Dev full stack
+[Avatar}-> Alunos devs
+[Problema]-> Como fazer a instalação do Docker 
+
+
+{Roteiro}
+Olá eu me chamo [Autoridade] e vou ensinar o [Avatar} mostrando á ele a solução do [Problema]
+
+{Regras}
+> Siga o {Roteiro} acima e substitua os elementos entre  [ ] por aqueles listados em {Resumo} acima.
+>Fique a vontade para modificar algumas ideias, seja criativo
+
+Tentar fazer com que a IA consiga ter bastante detalhes usando o FTAE e gere um texto de forma suave
+
+
+Formatos-> Modificar um conteúdo, passando o endereço na barra de pergunta junto com a pesquisa.
+
+Personalizar os símbolos que a IA pode usar para escrever
+Resumir histórias, criar cronogramas,etc
+Tudo tem que estar bem detalhado para que o resultado fique quase perfeito, digitando como se bv
+
+É possível pedir testes para vagas de programação, fazer entrefista técnica e outras coisas.
+
+
+Fazer um mood na IA 
+Pode usar para postagem nas redes sociais, usando o FTAE.
+

@@ -1,0 +1,106 @@
+n = int(input())
+matrices = []
+
+for i in range(n):
+    matrix = input()
+    matrices.append(matrix.split(','))
+
+# TODO: Create a function to calculate accuracy and precision metrics
+    VP = matrices[0]
+    VN = matrices[0]
+    FP=  matrices[1]
+    FN=  matrices[1]
+    
+    accuracy = (VP + VN)/(VP+FP+FN+VN)
+    
+    precision = VP/(VP+FP)
+
+# TODO: Create a function to find the matrix index with the best combined accuracy and precision
+def best_performance(matrices):
+    best_index = 0
+    best_accuracy = 0
+    best_precision = 0
+    # TODO: Define Loop through each matrix to calculate metrics
+    for index, matrix in enumerate(matrices):
+        # TODO: Define tp, fp fn and tn
+
+        # TODO: Calculate accuracy and precision
+
+        # TODO: Update best metrics if found
+       
+    return best_index, best_accuracy, best_precision
+
+# Print the results
+
+Quinto 
+
+# TODO: Create a function to calculate accuracy and precision metrics
+# Função para calcular a acurácia e a precisão de uma matriz de confusão
+def calcular_metricas(matriz_confusao):
+    VP = int(matriz_confusao[0])  # Verdadeiro positivo
+    FP = int(matriz_confusao[1])  # Falso positivo
+    FN = int(matriz_confusao[2])  # Falso negativo
+    VN = int(matriz_confusao[3])  # Verdadeiro negativo
+    
+    # Calcular acurácia
+    acuracia = (VP + VN) / (VP + FP + FN + VN)
+    
+    # Calcular precisão
+    if VP + FP != 0:
+        precisao = VP / (VP + FP)
+    else:
+        precisao = 0  # Precisão é 0 se VP + FP = 0
+    
+    return acuracia, precisao
+
+# Função para encontrar o índice da matriz com o melhor desempenho combinado de acurácia e precisão
+def best_performance(matrizes):
+    best_index = 0
+    best_accuracy = 0
+    best_precision = 0
+    
+    # Loop através de cada matriz para calcular métricas
+    for index, matriz in enumerate(matrizes):
+        # Extrair métricas de acurácia e precisão
+        acuracia, precisao = calcular_metricas(matriz)
+        
+        # Atualizar melhores métricas se encontradas
+        if (acuracia + precisao) > (best_accuracy + best_precision):
+            best_index = index
+            best_accuracy = acuracia
+            best_precision = precisao
+    
+    return best_index, best_accuracy, best_precision
+
+# Matrizes de confusão
+n = int(input())  # Já recebeu o valor de n
+matrizes = []
+
+# Leitura das matrizes de confusão
+for _ in range(n):
+    matriz = input().split(',')
+    matrizes.append(matriz)
+
+# Encontrar o melhor desempenho combinado de acurácia e precisão
+best_index, best_accuracy, best_precision = best_performance(matrizes)
+count_best_index = best_index + 1
+# Print the results
+print("Índice:", count_best_index)
+
+def formatar_acuracia(best_accuracy):
+    partes = str(best_accuracy).split('.')
+    
+    if len(partes) == 2 and len(partes[1]) > 1:
+        return "{:.2f}".format(best_accuracy)
+    else:
+        return best_accuracy
+print("Acurácia:", formatar_acuracia(best_accuracy))
+
+def formatar_precisao(best_precision):
+    partes = str(best_precision).split('.')
+    
+    if len(partes) == 2 and len(partes[1]) > 1:
+        return "{:.2f}".format(best_precision)
+    else:
+        return best_precision
+print("Precisão:", formatar_precisao(best_precision))

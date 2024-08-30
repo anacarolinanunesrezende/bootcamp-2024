@@ -1,0 +1,100 @@
+Bootcamp Santander 2024 em parceria com a plataforma DIO
+
+Iniciei ontem dia 29/04/24 após um funcionário da DIO me fornecer um link para me cadastrar na trilha de IA.
+
+Por enquanto só são mostrados os mecanismos da plataforma e outras dicas como gerenciamento de tempo.
+
+"Matriz Eisenhower" -> Urgente e importante > Não urge. e impor. > urge. e não impor. > não urge. e não impor.
+
+
+Aula dia 30/04/24
+
+A professora explica sobre o versionamento e cita a ferramenta do git
+
+Existe dois tipos de versionamento:
+
+O centralizado e distribuído.
+
+O comando git pull serve para usar naqueles momentos que o software recebeu atualização do seu colega para evitar os conflitos
+
+O comando git push é utilizado para atualização.
+
+Ataque DDoS -> pesquisar
+
+Aula 02/05/24
+
+Instalação do git e github
+
+Comando git init para inicializar o versionamento
+
+nome "master" está sendo descontinuado
+
+Para instalar no linux, é nessário acessar o site do git oficial e abrir o cmd do linux e digitar 3 comandos.
+
+Acesso do git bash -> abriu um terminal, O comando git config mostra opções. È possível configurar o nome e email do versionamento usando variáveis --global, --stem e --global. 
+No exemplo mostrado a instrutora digitou os comandos
+git config --global user.name "nome"
+git config --global user.email email
+Isso aparece nos comits recentes.
+
+Comando para mudar o nome da branch é:
+git config init.defaultBranch nome
+
+Autenticação com token
+O token é gerado pelo github na sessão "develop settings", o token expira em 30 dias, ele é gerado aleatoriamente.
+Clonar o repositório utiliza git clone
+Credencial do git, verificar documentação.
+
+Autenticação SSH(protocolo-chaves(privada e publica)
+
+A menina explicou como fazer a geração de chave ssh, a chave publica sempre termina com ".pub" antecedida de caracteres gerados.
+Para fazer esta auttenticação é necessário utilizar alguns comandos oferecidos na própria página do github dentro do git bash, que vai pedir para gerar uma "passphrase" para senha, posteriormente é necessário acessar a plataforma github para colocar um link gerado na hora de clonar o repositótio.
+
+Clone de repositórios, criação de uma pasta, acesso desta pasta e depois digita git init(faz um repositório)
+Comando cd .git(mostra que é um reposi.)
+
+Para clonar tem que digitalizar o comando git clone seguido da url do repositório no git bash
+Tive que pressionar crtl + shift + v para colar.
+(Utilizei o cmd e fez a clonagem com  a url copiada, mas no gti bash não funcionou!).
+
+NÃO POSSO COPIAR A URL NO GIT BASH PORQUE PODE SER INTRODUZIDO CARACTERES ESTRANHO. ERA O QUE ESTAVA ACONTECENDO. ENTÃO DIGITEI LETRA POR LETRA A URL E A CLONAGEM FUNCIONOU.
+
+Comando git remote -v serve para verificar repositório que o dev está vinculado;
+Comando git remote add origin +url do repositório -> adiciona o reposit. móvel para o repositório local.
+
+Origin significa o servidor.
+É possível adicionar conteúdos dos diretórios através dos comandos no git bash, os comandos estão no próprio github.
+
+22/05/24
+
+A pasta foi criada dentro da pasta nunes que fica localizada em users;
+Para localizar o que mostrou na listagem como hooks,info,objects, e outros tem que adicionar ao caminho lá na barra em cima \ .git
+
+Usar cat config para mostrar o arquivo config
+
+Na clonagem tem que digitar o comando git clone seguida da url do repositório que quer clonar e pode adicioanr um nome para este repositório clonado.
+
+
+Mostrar com está o repositório: git status.
+
+Comando para criar um readme é touch + arquivo
+
+Markdown -> Linguagem de marcação
+
+É possível personalizar o seu Redmin usando o site readme.so
+Dá para criar subtítulos e fazer tabelas usando | e adicionadno um iten e fechando com |
+Para inserir link é preciso por dentro de parenteses
+Usar ... comando do git ...
+
+Dentro do git bash para digitar um comit tem que suar o comando git commit -m"Arquivos"
+git log mostra os dados do comit
+Para deixar o diretória não vazio cria o arquivo .gitkeep
+
+Exclusão de repositório-> comando: rm - rf    .git
+
+Restoraçao do arquivo deletado
+Usar git restore mais o nome do arquivo.
+
+Comando de reset há três tipos: soft, mixed e hard
+
+Comando amend renomeia o commit

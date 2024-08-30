@@ -1,0 +1,18 @@
+Aplicações práticas - IA
+
+17/06/24
+
+site -> gamma.app
+
+Inteligência generativa
+
+Realização de prompts. Usando sempre a linguagem neural humana
+
+É bom criar um chat novo dentro de um chatbot.
+
+API da openAI: Documentação.
+
+site -> postman (Documentação da openai). Através d aplataforma dá para acessar a API da empresa.
+É preciso acessar o site da mesma empresa e ir em API Keys e lá pode gerar uma chave e depois passar no token lá na plataforma postman.
+
+site -> leonardo.ai, elevenlabs.io

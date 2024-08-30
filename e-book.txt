@@ -1,0 +1,35 @@
+Criação do e-book
+
+03/06/24 | 05/06/24
+
+Apresentar para recrutador
+
+*Pensar em um titúlo; 
+*Tema pode ser com o mundo de jogos com tecnologia assistiva.
+
+
+Título escolhido: "Heróis Inclusivos: Tecnologia Assistiva em Jogos"
+
+Ferramenta para gerar imagem-> MidJourney
+
+*Gerar a capa
+
+tem que entrar no discord e aí digitar em mensagem: /imagine que vai gerar o prompt onde vou dizer o que quero na imagem
+Escolhe a imagem clicando em U+numero e para alterar o pedido tem escolher o V+numero
+Criei a imagem com o Copilot da miscrosoft
+
+O prof vai criar o e-book no power point, mas vou usar o canva 
+
+Tamanho A4 vai servir para o resto do e-book
+Regras: Fontes com tamanho multiplos de 8(16px,224px,32px,40px), pouco texto  elayout agradável
+
+Cada capítulo novo tem que gerar uma capa nova. O título tem que ficar um pouco abaixo do centro e na capa tem que ter o numero do capit.
+
+Site dev.to -> artigo para compartilhar trecho do script.
+ray.so, showcode.app -> estiliza o trecho do script
+
+O instrutor pediu para postar no github e depois postar no Linkedin
+
+Estou pensando em criar uma história com narrador sendo personagem principal em que ele é um deficiente visual que está tentando programar um jogo, mostra os 2 capítulos como ele desenvolve um jogo, no 3 cap. ele testando seu proprio jogo e no 4 capi. é a conclusão dos testes e o fim da história.
+
+

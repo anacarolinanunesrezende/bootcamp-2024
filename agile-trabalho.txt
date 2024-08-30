@@ -1,0 +1,41 @@
+Equipe ágeis
+
+24/06/24
+
+Valores ágeis: Manifesto ágil de 2001
+
+Valorização de interações; Validação do funcionamento do software; Valorização da colaboração do que a negociação e ser adaptável as mudanças.
+
+Existem 12 princípios
+
+Satisfação do cliente -> Entrega contínua;
+Reflexão sobre o desenvolvimento do trabalho, faz acompanhamento, avaliações, etc.
+
+Inovação é importante para manter o trabalho ágil.
+Rapidez para entregar aquela parte do projeto.
+Eficiência.
+
+
+25/06/24
+
+Processo -> E continuo
+Projeto -> Estabelece o inicio e o final do projeto
+
+Modelo Cascata (Waterfall): Requisitos, design, integração, teste, e o deploy.
+
+Scrum -> Incremento, interação e reuniões constantes.
+
+Métodos:
+
+Framework Scrum;
+
+XP: Extreme Programing. Ciclos curtos de desenvolvimento, testagem constante e aproximação com o  cliente.
+Feedback, cerimonias, programação em par, incremento, etc.
+
+26/06/24
+Kanbam -> Cartoes com o to do,doing e o done. Para saber o processo de desenvolvimento.
+
+OKR ->Inspirador e desafiador, atrelado com os negócios.
+Resultados chaves = metas
+Monitoramento continuo, cooperação,etc.
+

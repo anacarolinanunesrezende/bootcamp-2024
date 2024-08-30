@@ -1,0 +1,21 @@
+Refatoração de código com chat gpt
+
+10/06/24
+
+O mecainismo ajeita o seu código com regras de boas práticas e pode te explicar porque usá-las.
+
+camelCase, snake_case e PascalCase-> nome(padrões) de variáveis para identificação.
+
+Tem que pular linha para evitar a unificação do código.
+
+Simplicação do código. è melhor ter mais legibilidade do que poucas linhas de script.
+
+Pode converter um paradigma. Um ex.: Um código simples sem nenhuma classe para um código em POO
+
+Boas práticas: prompt-> aplique boas práticas...;
+Renomeia funções; 
+Muda de lugar as declaráveis.
+
+Dá para fazer com que o mecanismo crie uma estrutura de diretório mehlor. Pode passar quais tipos de arquivo as pastas terão.
+
+Existe um limite máximo dentro do chat para que o mecanismo consiga ajudar.

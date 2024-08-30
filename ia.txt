@@ -1,0 +1,55 @@
+Introdução
+
+15/06/24
+
+Automatização de atividades, pensamento de máquina e habilidade de aprendizagem com a memória.
+Exemplos: Assistente virtual, chatbot, sugestão de conteúdo através dos algoritmos, programação de carros modernos,etc.
+
+Machine Learning -> Aprendizagem contínua. 
+Visão computacional -> Interpretação de imagem.
+NLP (Processamento de Linguagem Natural) -> Compreensão da máquina da linguagem humana.
+Robótica -> Autonomia de um robô.
+
+Responsabilidade: Uso da IA, uso de dados e o impacto na sociedade dentro do mercado de trabalho.
+
+A história da AI começa junto com o início da computação (a máquina de Alan Turing).
+Dartmouth Workshop -> Encontro de pesquisadores que gerou a base para estudos da AI.
+Logic Theorist-> Teorema matemático com AI.
+Inverno de AI -> Falta de recursos e limitações para apoiar o desenvolvimento com inteligencia.
+Renascimento da AI -> Melhoramento do desenvolvimento de AI.
+
+
+Machine Learning com dados
+
+Sugestão de palavras através do teclado; Ban list: palavras que devem ser banidas de uma terminada aplicação; Sugestões de conteúdo conforme feedbacks e da memória da máquina que gravou o nicho que o usuário costuma ver para apresentar novos conteúdos, anúncios e etc.
+
+Modelos de algoritmo
+
+AI faz abstrações dos passos certos e errados.
+
+Aprendizagem supervisionada -> Observa como a máquina está seguindo os passos e verifica se está correto.
+
+Aprendizagem não supervisionada -> Não elabora algoritmos claros para que a máquina trabalhe, não há uma verificação exata.
+
+Aprendizagem por reforço -> Gera feedback de um observador (humano ou de outra máquina) sobre os passos que aquela AI fez.
+Reforço positivo-> Feedback positivo.
+
+Visão computacional
+
+Redes neurais convoluvionais-> Aprendizagem de padões visuais complexo como o ser humano reconhece o que está vendo.
+
+Segmentação de objetos-> Identificar objetos e distinguir um bojeto de outro.
+
+Detecção e reconhecimento facial
+
+NLP(Lingua. natural)
+
+Compreensão, interpretação e interação.
+Os modelos são treinados com textos já existentes para entender qual padrão e contexto o usuário está dialogando. Isso usa a probabilidade para entregar o melhor serviço possível. Cria a noção de espaço, tempo, tokens->matemática, análise semântica e desambiguação léxica(resoluçaõ de palavras ambíguas).
+Redes neurais de linguagem(coerência nas respostas).
+
+Robótica
+
+Engenharia + computação
+Deep leraning, aprende com experiênica.
+Interação humano-robô.

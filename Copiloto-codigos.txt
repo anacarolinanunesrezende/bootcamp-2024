@@ -1,0 +1,19 @@
+Gerar copiloto para melhorar o código
+
+11/06/24
+
+Pode pedir para que o mecanismo crie uma função ou outro trecho de código e ele gere conforme as regras que vai passar como o tipo de linguagem, variáveis de input e output,etc.
+
+Isso auxilia na previsão de um código que será gerado.
+
+Pode gerar os testes unitários.
+
+Trabalha com a transição de linguagens de um código.
+
+Dá para pedir para gerar uma documentação com detalhes do código enviado para a AI.
+
+Existe um padrão de documentação dos códigos escritos usando certa linguagem.Tem que passar um template em {TEMPLATE} junto com o pedido.
+
+Pesquisar-> Clean Arch
+
+Criação do cheat-sheet(Guia para executar comandos).

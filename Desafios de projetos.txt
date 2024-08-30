@@ -1,0 +1,21 @@
+Desafios de projetos
+
+22/05/2024
+
+PBL -> Aprendizagem em projetos;
+
+Criação de portifólio;
+
+Ter hard skills e soft skills;
+
+Contribuir em projetos de open source no github;
+
+Realizar fork de um repositório, clonar um.
+
+Onde ficou minha aapresentação: Caminho: community/carol.md
+Link:  https://github.com/anacnr/dio-lab-open-source/blob/a46ac3734f19c1dbe5e7eb2c6ff4db9dd86832f9/community/carol.md
+
+
+
+
+

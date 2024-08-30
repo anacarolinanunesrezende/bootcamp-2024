@@ -1,0 +1,38 @@
+AIs
+
+19/06/24
+
+AI geral -> Mais complexo; 
+AI restrits -> tipo chatbox;
+Machine Learning -> Aprendizagem continua
+
+AI restrita:
+Teste de turing-> Avaliação de questionários para a máquina realizados por humano.
+Visão computacional -> Ver tudo com cores e tem a referencia de cada objeto baseado nas cores.
+ML -> Treinamento.
+
+Anvison -> 3 regras
+
+Ai faz mais do que uma máquina com achine learning
+
+PLN
+
+
+Visão computacional
+
+20/06/24
+
+Deep learning
+
+Extração de features -> filtros na imagem e detecção de bordas
+Detecção dos objetos
+
+Playground TensorFlow -> Pode acessar a plataforma para aprender 
+
+Rastreamento(Tracking)
+
+Rede YOLO sort
+
+Rastre. em função do tempo
+
+LSTM -> Avaliação de tempo curto a longo prazo. Deep sort faz isso frame por frame

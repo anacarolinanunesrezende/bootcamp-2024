@@ -1,0 +1,17 @@
+AI com rede generativa
+
+24/06/24 
+
+Redes com IA restritas -> Executam somente uma tarefa determinada
+
+Redes neurais artificiais -> Algoritmos com estrutura de um neurônio artificial em formato matemático.
+
+Modelos auto regressivos -> Algoritmos de classificação que usa classes e o dataset que é baseado para gerar o treino.
+
+Pode usar a plataforma colabe para acessar alguns dados de imgs
+
+Redes adversárias
+
+Dois algoritmos aprendendo a fazer imagens, uma para pegar o estilo do artista e a outra IA vai fazer a validação de imgs geradas
+
+GANs -> Gerador que valida img fake x img real

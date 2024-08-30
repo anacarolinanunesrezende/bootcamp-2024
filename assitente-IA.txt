@@ -1,0 +1,42 @@
+Assitente virtual IA
+
+30/05/24
+
+repositório-> awesome-chatgpt-prompts
+
+É possível jogar códigos, comandos de terminal no chat e mostrar o resultado,comandos de banco de dados,etc.
+
+Isso é tipo poder simular que estou dentro do terminal do linux ou de outro sistema operacional.
+
+A máquina funciona para auxiliar na criação de aplicações em outras áreas além de programação como design, requisitos, logística,etc.
+Sempre seguindo a técnica FTAE(função, tipo de texto, assunto e estilo).
+
+
+02/06/24
+
+Perguntar a IA perguntas feitas para uma IA. Como se pedisse um tutorial 
+
+Dá para pedir uma geração de passos o que postar nas redes sociais, passa o tema específico e a máquina vai gerar um texto.
+
+Prompt para histórias ficticias ou verídicas:
+Act as 'Character' from 'Movie/Book/Anything'
+
+Ex.: Act as 'Leon S. Kenedy' from 'RE6'
+
+
+
+Entrevista Técnica com IA
+
+Ensinar o chat a criar uma entrevista.
+Usa a fantasia computacional, faz a pergunta com regras.
+
+site-> caniuse Mostra o suporte de propriedades de css em diferentes navegadores
+
+Criação de perguntas e explicações das entrevistas
+
+
+Captar o "DNA" da empresa-> pesquisar pelos repositórios que a compania tem, tenta entender os códigos e o padrão. "Guide line".
+Pesquisasr sobre a cultura e história da compania.
+Identificação de valores
+
+Brain Dumps-> Dicas de processos seletivos.

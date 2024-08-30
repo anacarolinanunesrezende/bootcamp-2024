@@ -1,0 +1,155 @@
+Lógica e Pensamento Computacional
+
+12/06/2014
+Adicionar a mesma lógica em diferentes linguagens
+
+
+Primeira: Python(Template da plataforma DIO)
+
+# Importa o módulo re, que é a biblioteca de expressões regulares do Python. 
+import re
+
+def analyze_sentiment():
+    # Entrada do usuário
+    comentario = input()
+
+    # Divisão do comentário em palavras
+    palavras = re.findall(r'\b\w+\b', comentario.lower())
+    
+    # Lista de palavras positivas, negativas e neutras
+    positivas = ["bom", "boa", "ótimo", "excelente", "maravilhoso", "gostei", "incrível"]
+    negativas = ["ruim", "péssimo", "horrível", "terrível", "odeio"]
+    neutras = ["mas", "deixou", "apesar", "embora"]
+
+    # Contagem de palavras positivas, negativas e neutras
+    count_positivo = sum(palavra in positivas for palavra in palavras)
+    count_negativo = sum(palavra in negativas for palavra in palavras)
+    # TODO: Conte quantas palavras neutras estão presentes no comentário.
+    count_neutro =  sum(palavra in neutras for palavra in palavras)
+
+    # Verifica se há mais palavras positivas do que negativas no comentário e se não há palavras neutras. Se essa condição for verdadeira, o comentário é considerado positivo.
+    if count_positivo > count_negativo and count_neutro == 0:
+        return "Positivo"
+    # TODO: Complete a codição para determinar o sentimento com base na contagem de palavras
+    elif(count_negativo > count_positivo and count_neutro==0):
+        return "Negativo"
+    else:
+        return "Neutro"
+
+# Saída esperada
+sentimento = analyze_sentiment()
+print("Sentimento:", sentimento)
+
+
+Segunda: Python(Template + chat gpt)
+
+# Entrada do usuário
+prompt_usuario = input()
+
+# Função para avaliar se o prompt está adequado
+def avaliar_prompt(prompt):
+    # Verifica se o prompt contém palavras-chave relevantes
+    palavras_chave = ["inteligência artificial", "sistemas de recomendação online", "exemplos de conversação", "explique conceitos", "dicas de tecnologia" ]
+    
+    # TODO: Aplique a condição necessária para verificar se o prompt está ou não adequado de acordo com o enunciado
+    for palavra in palavras_chave:
+      if palavra in prompt:
+        return True
+      
+    return False
+# Avaliar o prompt do usuário
+feedback_usuario = avaliar_prompt(prompt_usuario)
+
+# Exibir feedback
+if feedback_usuario:
+    print("O prompt está adequado.")
+else:
+    print("O prompt não está adequado. Inclua palavras-chave relevantes.")
+
+**Estava dando um problema com a minha sáida. Tive que editar e colocar o mesmo texto que estava no desaio.
+
+Terceira
+
+def identificar_funcoes(texto):
+    # Retorna uma mensagem sobre separar funções em unidades coesas e com responsabilidades únicas.
+    return "Separe funções em unidades coesas e com responsabilidades únicas."
+
+def entrada_de_dados(texto):
+    # TODO: Retorne uma mensagem sobre validar e normalizar as entradas para evitar inconsistências.
+    return "Valide e normalize as entradas para evitar inconsistências."
+
+def nomenclatura_significativa(texto):
+    # TODO: Retorne uma mensagem sobre usar nomes descritivos para variáveis e funções.
+    return "Use nomes descritivos para variáveis e funções."
+
+def processar_entrada(texto):
+    # Dicionário mapeando textos para funções
+    opcoes = {
+        "Dica de boas práticas de refatoração de código, nas funções.": identificar_funcoes,
+        "Dica de boas práticas de refatoração de código, nas entrada de dados.": entrada_de_dados,
+        "Dica de boas práticas de refatoração de código, nomenclaturas.": nomenclatura_significativa
+    }
+
+    # Verifica se o texto está presente nas opções
+    if texto in opcoes:
+        # Chama a função correspondente ao texto e retorna o resultado
+        return opcoes[texto](texto)
+    else:
+        # TODO: Retorne uma mensagem de opção inválida se o texto não estiver nas opções
+        return "Opção inválida."
+
+def desafio():
+    # Solicita uma entrada do usuário
+    entrada = input()
+    # Processa a entrada e obtém a saída
+    saida = processar_entrada(entrada)
+    # Exibe a saída
+    print(saida)
+
+desafio()
+
+
+Quarta
+
+# Entrada do usuário
+cogumelo_desejado = input()
+
+# Função para sugerir cogumelos com preços mais baixos com base em um cogumelo desejado.
+def sugerir_cogumelos(cogumelo_desejado):
+    # Defina um dicionário onde as chaves são os tipos de cogumelos e os valores são os preços correspondentes
+    catalogo = {
+        "Shitake": 10,
+        "Portobello": 8,
+        "Shimeji": 6,
+        "Champignon": 12,
+        "Funghi": 16,
+        "Porcini": 16
+    }
+
+    # Verifica se o cogumelo desejado está no catálogo
+    if cogumelo_desejado in catalogo:
+        # Se estiver no catálogo, armazene o preço do cogumelo desejado e crie uma lista vazia para as sugestões
+        valor_desejado = catalogo[cogumelo_desejado]
+        sugestoes = []
+
+        # Procura por cogumelos mais baratos no catálogo
+        for cogumelo, valor in catalogo.items():
+            if valor <= valor_desejado and cogumelo != cogumelo_desejado:
+                sugestoes.append((cogumelo, valor))  # Adiciona uma tupla (cogumelo, valor)
+                if len(sugestoes) == 2:
+                    break
+
+        if not sugestoes:
+            # Se não houver sugestões, exiba a mensagem indicada no enunciado
+            print("Desculpe, não há sugestões disponíveis.")
+        else:
+            for sugestao, valor_sugestao in sugestoes:
+                print(f"{sugestao} - Valor: {valor_sugestao}")
+    else:
+        # Se o cogumelo desejado não estiver no catálogo, exiba uma mensagem de erro indicada no enunciado
+        print("Cogumelo não encontrado no catálogo.")
+
+# Chamada da função para sugerir cogumelos
+sugerir_cogumelos(cogumelo_desejado)
+
+Quinta
